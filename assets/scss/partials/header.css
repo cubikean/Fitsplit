@@ -1,15 +1,12 @@
 /* ----------------------------------------------------------------------------------------------------
 
-                    HOME PAGE - CUBICOM V.1.0.0
+                    HEADER PAGE - CUBICOM V.1.0.0
 
 ---------------------------------------------------------------------------------------------------- */
-
-body{
-    background-color: #141414;
-    margin: 0;
-}
-h1{
-    font-size: 36px;
+.ft_nav {
+  border-bottom: 2px solid #FF9F47; }
+  .ft_nav .ft_nav_items .ft_nav_item a {
     color: white;
-    text-decoration: dashed
-}
+    text-decoration: none; }
+
+/*# sourceMappingURL=header.css.map */

@@ -3,13 +3,12 @@
  */
 
 /* Elements */
-// @import "/";
+
 
 /* Template */
-@import "template/home.scss";
 
-
-
+@import "template/home";
+@import "partials/header";
 
 
 /* Responsive */

@@ -9,7 +9,24 @@
 
 ---------------------------------------------------------------------------------------------------- */
 body {
-  background-color: #141414; }
+  background-color: #141414;
+  margin: 0; }
+
+h1 {
+  font-size: 36px;
+  color: white;
+  text-decoration: dashed; }
+
+/* ----------------------------------------------------------------------------------------------------
+
+                    HEADER PAGE - CUBICOM V.1.0.0
+
+---------------------------------------------------------------------------------------------------- */
+.ft_nav {
+  border-bottom: 2px solid #FF9F47; }
+  .ft_nav .ft_nav_items .ft_nav_item a {
+    color: white;
+    text-decoration: none; }
 
 /* Responsive */
 

@@ -4,6 +4,12 @@
 
 ---------------------------------------------------------------------------------------------------- */
 body {
-  background-color: #141414; }
+  background-color: #141414;
+  margin: 0; }
+
+h1 {
+  font-size: 36px;
+  color: white;
+  text-decoration: dashed; }
 
 /*# sourceMappingURL=home.css.map */
