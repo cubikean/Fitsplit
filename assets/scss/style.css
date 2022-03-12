@@ -28,19 +28,27 @@ h1 {
   display: flex;
   border-bottom: 2px solid #ff9f47;
   padding: 20px 40px; }
-  .ft_nav .ft_nav_logo {
-    width: 10%; }
   .ft_nav .ft_nav_items {
-    margin-left: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 40%; }
-    .ft_nav .ft_nav_items .ft_nav_item a {
-      font-size: 24px;
-      color: white;
-      font-family: "Poppins", sans-serif;
-      text-decoration: none; }
+    justify-content: space-between; }
+    .ft_nav .ft_nav_items ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      list-style: none; }
+      .ft_nav .ft_nav_items ul li {
+        margin-left: 40px; }
+        .ft_nav .ft_nav_items ul li a {
+          font-size: 18px;
+          color: white;
+          font-family: "Poppins", sans-serif;
+          width: 100%;
+          text-decoration: none; }
+      .ft_nav .ft_nav_items ul .menu {
+        display: none; }
+        .ft_nav .ft_nav_items ul .menu .menu_toggle {
+          display: none; }
   .ft_nav .ft_nav_search {
     width: 20%;
     display: flex;
@@ -54,7 +62,7 @@ h1 {
         font-size: 18px;
         color: white;
         height: 35px;
-        width: 240px;
+        width: 300px;
         border: none;
         border-radius: 50px;
         background: #282828;
@@ -98,6 +106,35 @@ h1 {
       font-size: 24px;
       color: white; }
 
+@media (max-width: 1024px) {
+  .ft_nav {
+    display: flex;
+    border-bottom: 2px solid #ff9f47;
+    padding: 20px 40px; }
+    .ft_nav .ft_nav_items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .ft_nav .ft_nav_items ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none; }
+        .ft_nav .ft_nav_items ul li {
+          display: none;
+          margin-left: 40px; }
+          .ft_nav .ft_nav_items ul li a {
+            font-size: 18px;
+            color: white;
+            font-family: "Poppins", sans-serif;
+            width: 100%;
+            text-decoration: none; }
+        .ft_nav .ft_nav_items ul .menu {
+          display: flex; }
+          .ft_nav .ft_nav_items ul .menu .menu_toggle {
+            display: flex; }
+            .ft_nav .ft_nav_items ul .menu .menu_toggle li {
+              display: block; } }
 /* Responsive */
 
 /*# sourceMappingURL=style.css.map */
