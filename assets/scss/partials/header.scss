@@ -3,14 +3,93 @@
                     HEADER PAGE - CUBICOM V.1.0.0
 
 ---------------------------------------------------------------------------------------------------- */
-.ft_nav{
-    border-bottom: 2px solid #FF9F47;
-    .ft_nav_items{
-        .ft_nav_item{
-            a{
-                color: white;
-                text-decoration: none;
-            }
-        }
+.ft_nav {
+  display: flex;
+  border-bottom: 2px solid #ff9f47;
+  padding: 20px 40px;
+  .ft_nav_logo {
+    width: 10%;
+  }
+  .ft_nav_items {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+
+    .ft_nav_item {
+      a {
+        font-size: 24px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+      }
     }
+  }
+  .ft_nav_search {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    form {
+      display: flex;
+      align-items: center;
+      input {
+        font-size: 18px;
+        color: white;
+        height: 35px;
+        width: 240px;
+        border: none;
+        border-radius: 50px;
+        background: #282828;
+        padding: 0 10px;
+        &:focus-visible {
+          outline: none;
+        }
+      }
+      i {
+        position: absolute;
+        right: 15px;
+        color: white;
+      }
+    }
+  }
+  .ft_nav_account {
+    width: 30%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    i {
+      position: relative;
+      font-size: 30px;
+      color: white;
+    }
+    .ft_nav_account_notification {
+      position: relative;
+      &::after {
+        content: "1";
+        font-family: "Poppins", sans-serif;
+        width: 20px;
+        height: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 14px;
+        background-color: #fc4343;
+        position: absolute;
+        right: -6px;
+        bottom: -6px;
+        border-radius: 50px;
+      }
+    }
+    span {
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      color: white;
+    }
+  }
 }
