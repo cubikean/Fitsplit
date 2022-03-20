@@ -8,8 +8,8 @@
         <div class="ft_nav_items">
             <ul>
                 <li class="menu">
-                    <a href="">Parcourir</a>
-                    <ul class="menu_toggle">
+                    <span>Parcourir</span>
+                    <ul class="menu_toggle_desk">
                         <li><a href="">Les coachs</a></li>
                         <li><a href="">programme d'entrainement</a></li>
                         <li><a href="">Nous rejoindre</a></li>

@@ -41,7 +41,7 @@
         }
         .menu {
           display: none;
-          .menu_toggle {
+          .menu_toggle_desk {
             display: none;
           }
         }
@@ -171,8 +171,25 @@
           .menu {
             display: flex;
             position: relative;
-            .menu_toggle {
+            span {
               display: flex;
+              align-items: center;
+              font-size: 14px;
+              color: white;
+              font-family: "Poppins", sans-serif;
+              width: 100%;
+              &::after {
+                content: "";
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 5px 5px 0 5px;
+                border-color: #fff transparent transparent transparent;
+                margin-left: 5px;
+              }
+            }
+            .menu_toggle_desk {
+              display: none;
               flex-direction: column;
               position: absolute;
               top: 30px;
@@ -187,6 +204,9 @@
                 &:first-child {
                   padding-top: 0px;
                 }
+              }
+              &.active {
+                display: flex;
               }
             }
           }
@@ -232,7 +252,7 @@
           transition-duration: 0.5s;
           margin-top: 12px;
           &.active {
-            background-color: #d1182b;
+            background-color: white;
             transform: rotate(45deg);
             margin-top: 20px;
           }
@@ -245,7 +265,7 @@
           align-self: center;
           transition-duration: 0.5s;
           &.active {
-            background-color: #d1182b;
+            background-color: white;
             opacity: 0;
           }
         }
@@ -256,7 +276,7 @@
           align-self: center;
           transition-duration: 0.5s;
           &.active {
-            background-color: #d1182b;
+            background-color: white;
             transform: rotate(-45deg);
             margin-top: -15px;
           }
@@ -288,12 +308,12 @@
           li {
             text-align: center;
             padding: 25px 0 !important;
-            a{
+            a {
               color: white;
               text-decoration: none;
-              font-family: "Poppins", sans-serif;;
+              font-family: "Poppins", sans-serif;
             }
-            &:last-of-type{
+            &:last-of-type {
               border-top: 1px solid white;
               width: 70%;
               margin: 0 auto;
