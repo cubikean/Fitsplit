@@ -10,5 +10,7 @@
 </head>
 <body>
 <?php include 'template-parts/header.php';?>
+<script src="assets/js/header.js"></script>
+
 </body>
 </html>

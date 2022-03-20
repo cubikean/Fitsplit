@@ -217,6 +217,8 @@
     .ft_nav_mobile {
       display: block;
       .ft_nav_mobile_menu {
+        position: relative;
+        z-index: 11;
         width: 40px;
         height: 40px;
         display: flex;
@@ -229,6 +231,11 @@
           align-self: center;
           transition-duration: 0.5s;
           margin-top: 12px;
+          &.active {
+            background-color: #d1182b;
+            transform: rotate(45deg);
+            margin-top: 20px;
+          }
         }
         #second {
           width: 70%;
@@ -237,6 +244,10 @@
           margin: 5px 0;
           align-self: center;
           transition-duration: 0.5s;
+          &.active {
+            background-color: #d1182b;
+            opacity: 0;
+          }
         }
         #third {
           width: 70%;
@@ -244,10 +255,51 @@
           background-color: white;
           align-self: center;
           transition-duration: 0.5s;
+          &.active {
+            background-color: #d1182b;
+            transform: rotate(-45deg);
+            margin-top: -15px;
+          }
         }
       }
-      .menu_toggle {
-        display: none;
+      .ft_nav_sub_menu {
+        z-index: 1;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #141414;
+        transform: translateX(-100%);
+        transition-duration: 0.5s;
+        z-index: 10;
+        width: 100%;
+        height: 100vh;
+        margin: 0px;
+        &.active {
+          transform: translateX(0px);
+        }
+        .menu_toggle {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          justify-content: center;
+          padding-left: 0px;
+          list-style-type: none;
+          li {
+            text-align: center;
+            padding: 25px 0 !important;
+            a{
+              color: white;
+              text-decoration: none;
+              font-family: "Poppins", sans-serif;;
+            }
+            &:last-of-type{
+              border-top: 1px solid white;
+              width: 70%;
+              margin: 0 auto;
+            }
+          }
+        }
       }
     }
     .ft_nav_container {

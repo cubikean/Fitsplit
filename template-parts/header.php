@@ -54,21 +54,17 @@
             <span id="second" class=""></span>
             <span id="third" class=""></span>
         </div>
-        <ul class="menu_toggle">
-            <li><a href="">Les coachs</a></li>
-            <li><a href="">programme d'entrainement</a></li>
-            <li><a href="">Nous rejoindre</a></li>
-            <li><a href="">Contact</a></li>
-            <hr>
-            <div class="ft_nav_account">
-                <a href="#" class="ft_nav_connexion">Connexion</a>
-                <div class="ft_nav_account_img">
-                    <a href="#">
-                        <i class="fa-solid fa-user"></i>
-                    </a>
-                </div>
-            </div>
-        </ul>
+        <div class="ft_nav_sub_menu">
+            <ul class="menu_toggle">
+                <li><a href="">Les coachs</a></li>
+                <li><a href="">programme d'entrainement</a></li>
+                <li><a href="">Nous rejoindre</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Parametres</a></li>
+                <li><a href="">Déconnexion</a></li>
+                
+            </ul>
+        </div>
     </div>
 
 </nav>
