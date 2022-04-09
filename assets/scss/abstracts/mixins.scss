@@ -1,0 +1,43 @@
+@mixin ft_btn {
+  background-color: $orange;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  width: auto;
+  transition: all 0.3s;
+  padding: 20px 80px 20px 80px;
+  text-transform: uppercase;
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@mixin ft_mouse_scroller {
+  width: 50px;
+  height: 80px;
+  border: 4px solid #333;
+  border-radius: 60px;
+
+  &::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 20px;
+    background: #333;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 30px;
+    opacity: 1;
+    animation: ft_mouse_scroller 2s infinite;
+  }
+
+}
+
