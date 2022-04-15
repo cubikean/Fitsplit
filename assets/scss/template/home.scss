@@ -26,7 +26,6 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
-
 .ft_home_container {
   width: 80%;
   margin: 0 auto;
@@ -87,8 +86,8 @@ p {
       justify-content: center;
       position: relative;
       .ft_home_content_right_sentences_first {
-          position: absolute;
-          left: 0;
+        position: absolute;
+        left: 0;
         align-self: flex-start;
         padding: 25px;
         width: 30%;
@@ -102,8 +101,8 @@ p {
         }
       }
       .ft_home_content_right_sentences_second {
-          position: absolute;
-          right: 0;
+        position: absolute;
+        right: 0;
         align-self: flex-end;
         padding: 25px;
         width: 30%;
