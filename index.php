@@ -65,7 +65,7 @@
                 <h2>Progammes tendances</h2>
                 <a href="#">tout voir</a>
             </div>
-            <div style="position: relative">
+            <div class="splide__relative">
                 <div class="splide__arrows"></div>
                 <div class="ft_home_programme_carousel splide__track">
                     <div class="ft_home_programme_carousel_list splide__list">

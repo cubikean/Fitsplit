@@ -124,16 +124,60 @@ p {
 
   .ft_home_programme {
     .ft_home_programme_name {
+      display: inline-flex;
+      align-items: center;
       h2 {
       }
       a {
+        text-decoration: none;
+        color: #4a4a4a;
+        margin-left: 20px;
+        font-family: "Poppins";
+      }
+    }
+    .splide__relative {
+      position: relative;
+      .splide__arrows {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        & button{
+          background: none;
+          border: none;
+        }
+      }
+      .splide__pagination {
+        position: absolute;
+        margin-top: 0;
+        top: -50px;
+        right: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-flex;
+        & li{
+          & button {
+            background: #282828;
+            border: none;
+            padding: 3px 10px;
+            margin: 1px;
+            &.is-active{
+              background: #4a4a4a;
+            }
+          }
+        }
+       
       }
     }
     .ft_home_programme_carousel {
       overflow: hidden;
-      .splide__sr{
+      .splide__sr {
         display: none;
       }
+
       .ft_home_programme_carousel_list {
         display: inline-flex;
         .ft_home_programme_single {
