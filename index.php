@@ -13,8 +13,8 @@
 <body>
     <?php include 'template-parts/header.php'; ?>
 
-    <section class="ft_home_container">
-        <div class="ft_home_content">
+    <div class="ft_home_container">
+        <section class="ft_home_content">
             <div class="ft_home_content_left">
                 <div class="ft_home_content_left_sentences">
                     <h2>Fitsplit</h2>
@@ -51,20 +51,306 @@
                 <a href="#">Découvrir</a>
             </div>
 
-        </div>
+        </section>
         <div class="ft_mouse">
             <div class="ft_mouse_scroller">
 
             </div>
         </div>
-    </section>
-    <section class="ft_home_container">
-    </section>
+
+        <div class="spacer50"></div>
+
+        <section id="programme-carousel" class="ft_home_programme splide">
+            <div class="ft_home_programme_name">
+                <h2>Progammes tendances</h2>
+                <a href="#">tout voir</a>
+            </div>
+            <div style="position: relative">
+                <div class="splide__arrows"></div>
+                <div class="ft_home_programme_carousel splide__track">
+                    <div class="ft_home_programme_carousel_list splide__list">
+                        <div class="ft_home_programme_single splide__slide">
+                            <div class="ft_home_programme_single_image">
+                                <img src="/assets/img/enzo 1.png" alt="">
+                            </div>
+                            <div class="ft_home_programme_single_content">
+
+                                <div class="ft_home_programme_single_content_title">
+                                    <a href="#">
+                                        <img src="/assets/img/user_img.png" class="profil_img" alt="">
+                                    </a>
+                                    <h3>1 ipsum dolor sit amet, consectetur adipiscing</h3>
+                                </div>
+                                <hr>
+
+                                <div class="ft_home_programme_single_tags">
+                                    <a href="#">Running</a>
+                                    <a href="#">Trail</a>
+                                    <a href="#">Cardio</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ft_home_programme_single splide__slide">
+                            <div class="ft_home_programme_single_image">
+                                <img src="/assets/img/enzo 1.png" alt="">
+                            </div>
+                            <div class="ft_home_programme_single_content">
+
+                                <div class="ft_home_programme_single_content_title">
+                                    <a href="#">
+                                        <img src="/assets/img/user_img.png" class="profil_img" alt="">
+                                    </a>
+                                    <h3>2 ipsum dolor sit amet, consectetur adipiscing</h3>
+                                </div>
+                                <hr>
+
+                                <div class="ft_home_programme_single_tags">
+                                    <a href="#">Running</a>
+                                    <a href="#">Trail</a>
+                                    <a href="#">Cardio</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ft_home_programme_single splide__slide">
+                            <div class="ft_home_programme_single_image">
+                                <img src="/assets/img/enzo 1.png" alt="">
+                            </div>
+                            <div class="ft_home_programme_single_content">
+
+                                <div class="ft_home_programme_single_content_title">
+                                    <a href="#">
+                                        <img src="/assets/img/user_img.png" class="profil_img" alt="">
+                                    </a>
+                                    <h3>3 ipsum dolor sit amet, consectetur adipiscing</h3>
+                                </div>
+                                <hr>
+
+                                <div class="ft_home_programme_single_tags">
+                                    <a href="#">Running</a>
+                                    <a href="#">Trail</a>
+                                    <a href="#">Cardio</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ft_home_programme_single splide__slide">
+                            <div class="ft_home_programme_single_image">
+                                <img src="/assets/img/enzo 1.png" alt="">
+                            </div>
+                            <div class="ft_home_programme_single_content">
+
+                                <div class="ft_home_programme_single_content_title">
+                                    <a href="#">
+                                        <img src="/assets/img/user_img.png" class="profil_img" alt="">
+                                    </a>
+                                    <h3>1 ipsum dolor sit amet, consectetur adipiscing</h3>
+                                </div>
+                                <hr>
+
+                                <div class="ft_home_programme_single_tags">
+                                    <a href="#">Running</a>
+                                    <a href="#">Trail</a>
+                                    <a href="#">Cardio</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ft_home_programme_single splide__slide">
+                            <div class="ft_home_programme_single_image">
+                                <img src="/assets/img/enzo 1.png" alt="">
+                            </div>
+                            <div class="ft_home_programme_single_content">
+
+                                <div class="ft_home_programme_single_content_title">
+                                    <a href="#">
+                                        <img src="/assets/img/user_img.png" class="profil_img" alt="">
+                                    </a>
+                                    <h3>2 ipsum dolor sit amet, consectetur adipiscing</h3>
+                                </div>
+                                <hr>
+
+                                <div class="ft_home_programme_single_tags">
+                                    <a href="#">Running</a>
+                                    <a href="#">Trail</a>
+                                    <a href="#">Cardio</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ft_home_programme_single splide__slide">
+                            <div class="ft_home_programme_single_image">
+                                <img src="/assets/img/enzo 1.png" alt="">
+                            </div>
+                            <div class="ft_home_programme_single_content">
+
+                                <div class="ft_home_programme_single_content_title">
+                                    <a href="#">
+                                        <img src="/assets/img/user_img.png" class="profil_img" alt="">
+                                    </a>
+                                    <h3>3 ipsum dolor sit amet, consectetur adipiscing</h3>
+                                </div>
+                                <hr>
+
+                                <div class="ft_home_programme_single_tags">
+                                    <a href="#">Running</a>
+                                    <a href="#">Trail</a>
+                                    <a href="#">Cardio</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ft_home_programme_single splide__slide">
+                            <div class="ft_home_programme_single_image">
+                                <img src="/assets/img/enzo 1.png" alt="">
+                            </div>
+                            <div class="ft_home_programme_single_content">
+
+                                <div class="ft_home_programme_single_content_title">
+                                    <a href="#">
+                                        <img src="/assets/img/user_img.png" class="profil_img" alt="">
+                                    </a>
+                                    <h3>1 ipsum dolor sit amet, consectetur adipiscing</h3>
+                                </div>
+                                <hr>
+
+                                <div class="ft_home_programme_single_tags">
+                                    <a href="#">Running</a>
+                                    <a href="#">Trail</a>
+                                    <a href="#">Cardio</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ft_home_programme_single splide__slide">
+                            <div class="ft_home_programme_single_image">
+                                <img src="/assets/img/enzo 1.png" alt="">
+                            </div>
+                            <div class="ft_home_programme_single_content">
+
+                                <div class="ft_home_programme_single_content_title">
+                                    <a href="#">
+                                        <img src="/assets/img/user_img.png" class="profil_img" alt="">
+                                    </a>
+                                    <h3>2 ipsum dolor sit amet, consectetur adipiscing</h3>
+                                </div>
+                                <hr>
+
+                                <div class="ft_home_programme_single_tags">
+                                    <a href="#">Running</a>
+                                    <a href="#">Trail</a>
+                                    <a href="#">Cardio</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ft_home_programme_single splide__slide">
+                            <div class="ft_home_programme_single_image">
+                                <img src="/assets/img/enzo 1.png" alt="">
+                            </div>
+                            <div class="ft_home_programme_single_content">
+
+                                <div class="ft_home_programme_single_content_title">
+                                    <a href="#">
+                                        <img src="/assets/img/user_img.png" class="profil_img" alt="">
+                                    </a>
+                                    <h3>3 ipsum dolor sit amet, consectetur adipiscing</h3>
+                                </div>
+                                <hr>
+
+                                <div class="ft_home_programme_single_tags">
+                                    <a href="#">Running</a>
+                                    <a href="#">Trail</a>
+                                    <a href="#">Cardio</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ft_home_programme_single splide__slide">
+                            <div class="ft_home_programme_single_image">
+                                <img src="/assets/img/enzo 1.png" alt="">
+                            </div>
+                            <div class="ft_home_programme_single_content">
+
+                                <div class="ft_home_programme_single_content_title">
+                                    <a href="#">
+                                        <img src="/assets/img/user_img.png" class="profil_img" alt="">
+                                    </a>
+                                    <h3>1 ipsum dolor sit amet, consectetur adipiscing</h3>
+                                </div>
+                                <hr>
+
+                                <div class="ft_home_programme_single_tags">
+                                    <a href="#">Running</a>
+                                    <a href="#">Trail</a>
+                                    <a href="#">Cardio</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ft_home_programme_single splide__slide">
+                            <div class="ft_home_programme_single_image">
+                                <img src="/assets/img/enzo 1.png" alt="">
+                            </div>
+                            <div class="ft_home_programme_single_content">
+
+                                <div class="ft_home_programme_single_content_title">
+                                    <a href="#">
+                                        <img src="/assets/img/user_img.png" class="profil_img" alt="">
+                                    </a>
+                                    <h3>2 ipsum dolor sit amet, consectetur adipiscing</h3>
+                                </div>
+                                <hr>
+
+                                <div class="ft_home_programme_single_tags">
+                                    <a href="#">Running</a>
+                                    <a href="#">Trail</a>
+                                    <a href="#">Cardio</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="ft_home_programme_single splide__slide">
+                            <div class="ft_home_programme_single_image">
+                                <img src="/assets/img/enzo 1.png" alt="">
+                            </div>
+                            <div class="ft_home_programme_single_content">
+
+                                <div class="ft_home_programme_single_content_title">
+                                    <a href="#">
+                                        <img src="/assets/img/user_img.png" class="profil_img" alt="">
+                                    </a>
+                                    <h3>3 ipsum dolor sit amet, consectetur adipiscing</h3>
+                                </div>
+                                <hr>
+
+                                <div class="ft_home_programme_single_tags">
+                                    <a href="#">Running</a>
+                                    <a href="#">Trail</a>
+                                    <a href="#">Cardio</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <div class="spacer50"></div>
+
+    </div>
 
 
 
+    <script src="/assets/js/splide-4.0.1/dist/js/splide.min.js"></script>
 
     <script src="assets/js/header.js"></script>
+    <script src="assets/js/home.js"></script>
+
 </body>
 
 </html>

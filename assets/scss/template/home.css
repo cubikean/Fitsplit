@@ -22,9 +22,11 @@ p {
   font-family: "Poppins", sans-serif; }
 
 .ft_home_container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 100px; }
+  .ft_home_container .spacer50 {
+    height: 50vh; }
   .ft_home_container .ft_home_content {
     flex-wrap: wrap;
     display: flex;
@@ -37,12 +39,12 @@ p {
         align-items: baseline; }
         .ft_home_container .ft_home_content .ft_home_content_left .ft_home_content_left_sentences h2 {
           color: #ff9f47;
-          font-size: 92px;
+          font-size: 72px;
           margin-right: 50px; }
         .ft_home_container .ft_home_content .ft_home_content_left .ft_home_content_left_sentences span {
           font-size: 50px; }
       .ft_home_container .ft_home_content .ft_home_content_left .ft_home_content_left_infos {
-        gap: 150px;
+        gap: 50px;
         display: flex;
         flex-direction: row;
         margin-bottom: 100px; }
@@ -50,7 +52,7 @@ p {
           font-weight: 400;
           text-align: center;
           position: relative;
-          font-size: 60px;
+          font-size: 32px;
           margin: 0; }
           .ft_home_container .ft_home_content .ft_home_content_left .ft_home_content_left_infos h3::after {
             content: "";
@@ -64,7 +66,7 @@ p {
           font-weight: 400;
           margin: 0;
           text-align: center;
-          font-size: 42px; }
+          font-size: 24px; }
     .ft_home_container .ft_home_content .ft_home_content_right {
       width: 50%;
       display: flex;
@@ -82,7 +84,7 @@ p {
         border-bottom-right-radius: 0px; }
         .ft_home_container .ft_home_content .ft_home_content_right .ft_home_content_right_sentences_first h1 {
           margin: 0;
-          font-size: 24px;
+          font-size: 20px;
           font-weight: 600; }
       .ft_home_container .ft_home_content .ft_home_content_right .ft_home_content_right_sentences_second {
         position: absolute;
@@ -96,12 +98,52 @@ p {
         .ft_home_container .ft_home_content .ft_home_content_right .ft_home_content_right_sentences_second h2 {
           margin: 0;
           font-weight: 600;
-          font-size: 24px; }
+          font-size: 20px; }
+  .ft_home_container .ft_home_programme .ft_home_programme_carousel {
+    overflow: hidden; }
+    .ft_home_container .ft_home_programme .ft_home_programme_carousel .splide__sr {
+      display: none; }
+    .ft_home_container .ft_home_programme .ft_home_programme_carousel .ft_home_programme_carousel_list {
+      display: inline-flex; }
+      .ft_home_container .ft_home_programme .ft_home_programme_carousel .ft_home_programme_carousel_list .ft_home_programme_single {
+        background-color: #282828;
+        border-radius: 10px;
+        margin: 0 10px;
+        overflow: hidden; }
+        .ft_home_container .ft_home_programme .ft_home_programme_carousel .ft_home_programme_carousel_list .ft_home_programme_single .ft_home_programme_single_content {
+          padding: 10px 20px;
+          display: flex;
+          flex-direction: column; }
+          .ft_home_container .ft_home_programme .ft_home_programme_carousel .ft_home_programme_carousel_list .ft_home_programme_single .ft_home_programme_single_content .ft_home_programme_single_content_title {
+            display: flex; }
+            .ft_home_container .ft_home_programme .ft_home_programme_carousel .ft_home_programme_carousel_list .ft_home_programme_single .ft_home_programme_single_content .ft_home_programme_single_content_title h3 {
+              padding-left: 20px;
+              font-size: 14px;
+              font-weight: 400; }
+          .ft_home_container .ft_home_programme .ft_home_programme_carousel .ft_home_programme_carousel_list .ft_home_programme_single .ft_home_programme_single_content hr {
+            width: 100%;
+            border-color: #ff9f47; }
+          .ft_home_container .ft_home_programme .ft_home_programme_carousel .ft_home_programme_carousel_list .ft_home_programme_single .ft_home_programme_single_content .ft_home_programme_single_tags {
+            display: flex;
+            justify-content: space-between; }
+            .ft_home_container .ft_home_programme .ft_home_programme_carousel .ft_home_programme_carousel_list .ft_home_programme_single .ft_home_programme_single_content .ft_home_programme_single_tags a {
+              font-size: 12px;
+              text-decoration: none;
+              font-family: "Poppins", sans-serif;
+              color: #ffffff; }
   .ft_home_container .ft_mouse {
     position: absolute;
     top: 95%;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+.profil_img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  object-fit: contain;
+  background-color: #ffffff;
+  border-radius: 50px; }
 
 @keyframes ft_mouse_scroller {
   from {
