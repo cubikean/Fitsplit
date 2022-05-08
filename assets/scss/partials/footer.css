@@ -1,0 +1,33 @@
+/* ----------------------------------------------------------------------------------------------------
+
+                    FOOTER PAGE - CUBICOM V.1.0.0
+
+---------------------------------------------------------------------------------------------------- */
+.ft_footer .ft_footer_tab {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto; }
+  .ft_footer .ft_footer_tab .ft_footer_tab_single {
+    display: inline-grid;
+    width: 25%; }
+    .ft_footer .ft_footer_tab .ft_footer_tab_single a {
+      text-decoration: none;
+      color: white;
+      font-family: "poppins"; }
+.ft_footer .ft_footer_info_center {
+  margin: 50px 0;
+  text-align: center; }
+  .ft_footer .ft_footer_info_center h3 {
+    font-size: 14px;
+    font-weight: 400; }
+.ft_footer .ft_footer_info_bottom {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-evenly; }
+  .ft_footer .ft_footer_info_bottom h3 a {
+    color: #ff9f47;
+    text-decoration: none;
+    font-family: "poppins"; }
+
+/*# sourceMappingURL=footer.css.map */

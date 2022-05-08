@@ -30,9 +30,6 @@ p {
   width: 90%;
   margin: 0 auto;
   margin-top: 100px;
-  .spacer50 {
-    height: 50vh;
-  }
 
   .ft_home_content {
     flex-wrap: wrap;
@@ -145,7 +142,7 @@ p {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        & button{
+        & button {
           background: none;
           border: none;
         }
@@ -158,18 +155,17 @@ p {
         padding: 0;
         list-style-type: none;
         display: inline-flex;
-        & li{
+        & li {
           & button {
             background: #282828;
             border: none;
             padding: 3px 10px;
             margin: 1px;
-            &.is-active{
+            &.is-active {
               background: #4a4a4a;
             }
           }
         }
-       
       }
     }
     .ft_home_programme_carousel {
@@ -180,39 +176,43 @@ p {
 
       .ft_home_programme_carousel_list {
         display: inline-flex;
-        .ft_home_programme_single {
-          background-color: #282828;
-          border-radius: 10px;
-          margin: 0 10px;
-          overflow: hidden;
-          .ft_home_programme_single_content {
-            padding: 10px 20px;
-            display: flex;
-            flex-direction: column;
-            .ft_home_programme_single_content_title {
-              display: flex;
-              h3 {
-                padding-left: 20px;
-                font-size: 14px;
-                font-weight: 400;
-              }
-            }
-            hr {
-              width: 100%;
-              border-color: $orange;
-            }
-            .ft_home_programme_single_tags {
-              display: flex;
-              justify-content: space-between;
-              a {
-                font-size: 12px;
-                text-decoration: none;
-                font-family: "Poppins", sans-serif;
-                color: $white;
-              }
-            }
-          }
-        }
+      }
+    }
+    .ft_home_programme_top {
+      display: flex;
+      justify-content: space-around;
+      .ft_home_programme_single:nth-child(1)::after {
+        content: "1";
+        font-size: 240px;
+        position: absolute;
+        top: 0;
+        left: -50px;
+        z-index: -1;
+        color: transparent;
+        -webkit-text-stroke: 2px $orange;
+        font-family: "poppins";
+      }
+      .ft_home_programme_single:nth-child(2)::after {
+        content: "2";
+        font-size: 240px;
+        position: absolute;
+        top: 0;
+        left: -100px;
+        z-index: -1;
+        color: transparent;
+        -webkit-text-stroke: 2px $orange;
+        font-family: "poppins";
+      }
+      .ft_home_programme_single:nth-child(3)::after {
+        content: "3";
+        font-size: 240px;
+        position: absolute;
+        top: 0;
+        left: -100px;
+        z-index: -1;
+        color: transparent;
+        -webkit-text-stroke: 2px $orange;
+        font-family: "poppins";
       }
     }
   }
@@ -222,6 +222,50 @@ p {
     top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .ft_home_coach {
+    .ft_home_coach_name {
+      h2 {
+        text-align: center;
+      }
+    }
+    .ft_home_coach_container {
+      margin-top: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .ft_home_coach_discover {
+      width: 200px;
+      margin: 80px auto;
+    }
+  }
+}
+
+.ft_brand {
+  .ft_brand_name {
+    text-align: center;
+    h2 {
+      font-size: 36px;
+    }
+  }
+  .ft_brand_container {
+    background-color: $orange;
+
+    & .ft_brand_container_img {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 20px;
+      width: 70%;
+      margin: 0 auto;
+      img {
+        width: 200px;
+        height: 100px;
+        object-fit: cover;
+      }
+    }
   }
 }
 
@@ -234,6 +278,96 @@ p {
   object-fit: contain;
   background-color: $white;
   border-radius: 50px;
+}
+
+.spacer50 {
+  height: 50vh;
+}
+
+.spacer20 {
+  height: 20vh;
+}
+
+// CARD //
+
+.ft_home_programme_single {
+  position: relative;
+  background-color: #282828;
+  border-radius: 10px;
+  margin: 0 10px;
+  width: 350px !important;
+  .ft_home_programme_single_image {
+    img {
+      width: 100%;
+    }
+  }
+  .ft_home_programme_single_content {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    .ft_home_programme_single_content_title {
+      display: flex;
+      h3 {
+        padding-left: 20px;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+    hr {
+      width: 100%;
+      border-color: $orange;
+    }
+    .ft_home_programme_single_tags {
+      display: flex;
+      justify-content: space-between;
+      a {
+        font-size: 12px;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        color: $white;
+      }
+    }
+  }
+}
+
+// COACH CARD //
+
+.ft_coach_card {
+  width: 400px;
+  background-color: #282828;
+  border-radius: 15px;
+  .ft_coach_card_img {
+    text-align: center;
+    height: 120px;
+    transform: translate(0px, -75px);
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+  .ft_coach_card_name {
+    h3 {
+      text-align: center;
+      font-size: 24px;
+      margin: 0;
+    }
+  }
+  .ft_coach_card_content {
+    padding: 30px;
+  }
+  .ft_coach_card_tags {
+    padding: 0px 30px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & a {
+      text-decoration: none;
+      font-family: "Poppins", sans-serif;
+      color: $white;
+    }
+  }
 }
 
 // EFFECT //

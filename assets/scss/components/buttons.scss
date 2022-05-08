@@ -1,6 +1,9 @@
 .ft_btn {
     @include ft_btn();
 }
+.ft_btn_coach {
+    @include ft_btn_coach();
+}
 .ft_mouse_scroller{
     @include ft_mouse_scroller();
 }
