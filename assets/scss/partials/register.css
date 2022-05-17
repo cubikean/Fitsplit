@@ -1,24 +1,35 @@
 /*
-Error: Undefined mixin 'ft_btn'.
-        on line 2 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\components\buttons.scss, in `ft_btn'
-        from line 2 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\components\buttons.scss
+Error: Undefined variable: "$orange".
+        on line 9 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\partials\register.scss
 
-1: .ft_btn {
-2:     @include ft_btn();
-3: }
-4: .ft_btn_coach {
-5:     @include ft_btn_coach();
-6: }
-7: .ft_mouse_scroller{
+4: 
+5: ---------------------------------------------------------------------------------------------------- *\/
+6: .ft_register_content {
+7:   .ft_register_title {
+8:     text-align: center;
+9:     color: $orange;
+10:   }
+11:   .ft_register_form {
+12:     form {
+13:       display: flex;
+14:       align-items: center;
 
 Backtrace:
-C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\components\buttons.scss:2:in `ft_btn'
-C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\components\buttons.scss:2
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\partials\register.scss:9
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -62,4 +73,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'ft_btn'.\A         on line 2 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\components\buttons.scss, in `ft_btn'\A         from line 2 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\components\buttons.scss\A \A 1: .ft_btn {\A 2:     @include ft_btn();\A 3: }\A 4: .ft_btn_coach {\A 5:     @include ft_btn_coach();\A 6: }\A 7: .ft_mouse_scroller{"; }
+  content: "Error: Undefined variable: \"$orange\".\A         on line 9 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\partials\register.scss\A \A 4: \A 5: ---------------------------------------------------------------------------------------------------- */\A 6: .ft_register_content {\A 7:   .ft_register_title {\A 8:     text-align: center;\A 9:     color: $orange;\A 10:   }\A 11:   .ft_register_form {\A 12:     form {\A 13:       display: flex;\A 14:       align-items: center;"; }

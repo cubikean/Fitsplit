@@ -1,0 +1,33 @@
+/*
+Error: Invalid CSS after "$outline: colors": expected selector or at-rule, was ".$focus 3px sol..."
+        on line 3 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\js\splide-4.0.1\src\css\template\default\foundation\mixins.scss
+
+1: @use './colors';
+2: 
+3: $outline: colors.$focus 3px solid !default;
+4: $outline-offset: 3px !default;
+5: $outline-offset-inset: -3px !default;
+6: 
+7: @mixin ie-only {
+8:   @media screen and (-ms-high-contrast: none) {
+
+Backtrace:
+C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\js\splide-4.0.1\src\css\template\default\foundation\mixins.scss:3
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$outline: colors\": expected selector or at-rule, was \".$focus 3px sol...\"\A         on line 3 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\js\splide-4.0.1\src\css\template\default\foundation\mixins.scss\A \A 1: @use './colors';\A 2: \A 3: $outline: colors.$focus 3px solid !default;\A 4: $outline-offset: 3px !default;\A 5: $outline-offset-inset: -3px !default;\A 6: \A 7: @mixin ie-only {\A 8:   @media screen and (-ms-high-contrast: none) {"; }

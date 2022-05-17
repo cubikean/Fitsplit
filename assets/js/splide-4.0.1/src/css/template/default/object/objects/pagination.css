@@ -1,0 +1,36 @@
+/*
+Error: Invalid CSS after "...kground: colors": expected selector or at-rule, was ".$background !d..."
+        on line 7 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\js\splide-4.0.1\src\css\template\default\object\objects\pagination.scss
+
+2: @use '../../foundation/mixins';
+3: 
+4: $bottom: .5em !default;
+5: $dot-width: 8px !default;
+6: $dot-height: 8px !default;
+7: $dot-background: colors.$background !default;
+8: $dot-background-hover: false !default;
+9: $dot-background-active: colors.$background-active !default;
+10: $dot-border: 0 !default;
+11: $dot-border-radius: 50% !default;
+12: $dot-margin: 3px !default;
+
+Backtrace:
+C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\js\splide-4.0.1\src\css\template\default\object\objects\pagination.scss:7
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...kground: colors\": expected selector or at-rule, was \".$background !d...\"\A         on line 7 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\js\splide-4.0.1\src\css\template\default\object\objects\pagination.scss\A \A 2: @use '../../foundation/mixins';\A 3: \A 4: $bottom: .5em !default;\A 5: $dot-width: 8px !default;\A 6: $dot-height: 8px !default;\A 7: $dot-background: colors.$background !default;\A 8: $dot-background-hover: false !default;\A 9: $dot-background-active: colors.$background-active !default;\A 10: $dot-border: 0 !default;\A 11: $dot-border-radius: 50% !default;\A 12: $dot-margin: 3px !default;"; }

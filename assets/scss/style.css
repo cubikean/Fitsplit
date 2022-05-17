@@ -634,6 +634,102 @@ p {
     text-decoration: none;
     font-family: "poppins"; }
 
+/* ----------------------------------------------------------------------------------------------------
+
+                    REGISTER PAGE - CUBICOM V.1.0.0
+
+---------------------------------------------------------------------------------------------------- */
+.ft_register_content .ft_register_title {
+  text-align: center;
+  color: #ff9f47; }
+.ft_register_content .ft_register_form form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 auto;
+  gap: 20px;
+  flex-wrap: wrap; }
+  @media (max-width: 768px) {
+    .ft_register_content .ft_register_form form {
+      width: 80%; } }
+  .ft_register_content .ft_register_form form input[id="Nom"],
+  .ft_register_content .ft_register_form form input[id="Prenom"] {
+    width: calc(50% - 50px); }
+    @media (max-width: 768px) {
+      .ft_register_content .ft_register_form form input[id="Nom"],
+      .ft_register_content .ft_register_form form input[id="Prenom"] {
+        width: 100%; } }
+  .ft_register_content .ft_register_form form input {
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #282828;
+    color: #ffffff;
+    width: 100%; }
+    .ft_register_content .ft_register_form form input:focus-visible {
+      outline: none; }
+.ft_register_content .ft_register_form input[type="submit"] {
+  background-color: #ff9f47;
+  width: 250px;
+  margin: 0 auto; }
+  @media (max-width: 768px) {
+    .ft_register_content .ft_register_form input[type="submit"] {
+      width: 70%; } }
+.ft_register_content .ft_register_form .ft_register_form_checkbox {
+  width: 100%; }
+  .ft_register_content .ft_register_form .ft_register_form_checkbox .ft_register_form_checkbox_single {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; }
+    .ft_register_content .ft_register_form .ft_register_form_checkbox .ft_register_form_checkbox_single label {
+      color: #757575;
+      font-size: 20px;
+      margin-left: 20px;
+      font-family: "Poppins", sans-serif;
+      -webkit-user-select: none;
+      /* Safari */
+      -moz-user-select: none;
+      /* Firefox */
+      -ms-user-select: none;
+      /* IE10+/Edge */
+      user-select: none;
+      /* Standard */ }
+    .ft_register_content .ft_register_form .ft_register_form_checkbox .ft_register_form_checkbox_single input[type="checkbox"] {
+      position: relative;
+      width: 1em;
+      padding: 15px !important;
+      height: 1em;
+      color: #141414;
+      border: 1px solid #ff9f47;
+      border-radius: 4px;
+      appearance: none;
+      outline: 0;
+      cursor: pointer;
+      transition: background 175ms cubic-bezier(0.1, 0.1, 0.25, 1); }
+      .ft_register_content .ft_register_form .ft_register_form_checkbox .ft_register_form_checkbox_single input[type="checkbox"]::before {
+        position: absolute;
+        content: "";
+        display: block;
+        top: 40%;
+        left: 50%;
+        width: 8px;
+        height: 14px;
+        border-style: solid;
+        border-color: #ffffff;
+        border-width: 0 2px 2px 0;
+        transform: translate(-50%, -50%) rotate(45deg);
+        opacity: 0; }
+      .ft_register_content .ft_register_form .ft_register_form_checkbox .ft_register_form_checkbox_single input[type="checkbox"]:checked {
+        color: #ffffff;
+        border-color: #ff9f47;
+        background: #ff9f47; }
+        .ft_register_content .ft_register_form .ft_register_form_checkbox .ft_register_form_checkbox_single input[type="checkbox"]:checked::before {
+          opacity: 1; }
+        .ft_register_content .ft_register_form .ft_register_form_checkbox .ft_register_form_checkbox_single input[type="checkbox"]:checked ~ label::before {
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+
 /* Responsive */
 
 /*# sourceMappingURL=style.css.map */

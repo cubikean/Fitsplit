@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMQ,sDAAQ;EACN,IAAI,EAAE,MAAM;AAGd,sDAAQ;EACN,KAAK,EAAE,MAAM",
+"sources": ["arrow.scss"],
+"names": [],
+"file": "arrow.css"
+}

@@ -1,6 +1,6 @@
 <nav class="ft_nav">
     <div class="ft_nav_logo">
-        <a href="">
+        <a href="/index.php">
             <img src="https://picsum.photos/200/70" alt="">
         </a>
     </div>
@@ -39,7 +39,7 @@
                         <i class="fa-solid fa-bell"></i>
                     </a>
                 </div>
-                <a href="#" class="ft_nav_connexion">Connexion</a>
+                <a href="/register.php" class="ft_nav_connexion">Connexion</a>
                 <div class="ft_nav_account_img">
                     <a href="#">
                         <i class="fa-solid fa-user"></i>

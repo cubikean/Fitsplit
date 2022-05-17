@@ -1,0 +1,35 @@
+/*
+Error: Invalid CSS after "$fill: colors": expected selector or at-rule, was ".$main !default;"
+        on line 5 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\js\splide-4.0.1\src\css\template\default\object\objects\arrow.scss
+
+1: @use '../../foundation/colors';
+2: @use '../../foundation/mixins';
+3: 
+4: $size: 1.2em !default;
+5: $fill: colors.$main !default;
+6: $fill-hover: false !default;
+7: $transition: false !default;
+8: $button-size: 2em !default;
+9: $button-background: colors.$background !default;
+10: $button-background-hover: false !default;
+
+Backtrace:
+C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\js\splide-4.0.1\src\css\template\default\object\objects\arrow.scss:5
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$fill: colors\": expected selector or at-rule, was \".$main !default;\"\A         on line 5 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\js\splide-4.0.1\src\css\template\default\object\objects\arrow.scss\A \A 1: @use '../../foundation/colors';\A 2: @use '../../foundation/mixins';\A 3: \A 4: $size: 1.2em !default;\A 5: $fill: colors.$main !default;\A 6: $fill-hover: false !default;\A 7: $transition: false !default;\A 8: $button-size: 2em !default;\A 9: $button-background: colors.$background !default;\A 10: $button-background-hover: false !default;"; }
