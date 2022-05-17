@@ -12,13 +12,13 @@
                     <ul class="menu_toggle_desk">
                         <li><a href="">Les coachs</a></li>
                         <li><a href="">programme d'entrainement</a></li>
-                        <li><a href="">Nous rejoindre</a></li>
+                        <li><a href="/offre.php">Nous rejoindre</a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
                 </li>
                 <li><a href="">Les coachs</a></li>
                 <li><a href="">programme d'entrainement</a></li>
-                <li><a href="">Nous rejoindre</a></li>
+                <li><a href="/offre.php">Nous rejoindre</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </div>

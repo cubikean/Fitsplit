@@ -1,0 +1,54 @@
+/* ----------------------------------------------------------------------------------------------------
+
+                    OFFRE PAGE - CUBICOM V.1.0.0
+
+---------------------------------------------------------------------------------------------------- */
+.ft_offre_content {
+  .ft_offre_title {
+    text-align: center;
+    color: $orange;
+  }
+  .ft_offre_desc{
+    width: 30%;
+    margin: 0 auto;
+    p{
+      text-align: center;
+    }
+  }
+  .ft_offre_sub_title{
+    margin-top: 100px;
+    text-align: center;
+    color: $orange;
+  }
+  .ft_offre_card_container{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    .ft_offre_card_container_single{
+      width: 700px;
+      border: 2px solid $orange;
+      h2{
+        text-align: center;
+        color: $orange;
+      }
+      h3{
+        text-align: center;
+        color: $orange;
+      }
+      p{
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 80%;
+        text-align: center;
+      }
+      .ft_btn{
+        
+        margin: 50px auto;
+        width: fit-content;
+      }
+    }
+  }
+}
