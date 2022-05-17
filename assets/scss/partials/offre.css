@@ -12,7 +12,7 @@ Error: Undefined variable: "$orange".
 11:   .ft_offre_desc{
 12:     width: 30%;
 13:     margin: 0 auto;
-14:     p{
+14:     @media (max-width:768px) {
 
 Backtrace:
 C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\partials\offre.scss:9
@@ -73,4 +73,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange\".\A         on line 9 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\partials\offre.scss\A \A 4: \A 5: ---------------------------------------------------------------------------------------------------- */\A 6: .ft_offre_content {\A 7:   .ft_offre_title {\A 8:     text-align: center;\A 9:     color: $orange;\A 10:   }\A 11:   .ft_offre_desc{\A 12:     width: 30%;\A 13:     margin: 0 auto;\A 14:     p{"; }
+  content: "Error: Undefined variable: \"$orange\".\A         on line 9 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\partials\offre.scss\A \A 4: \A 5: ---------------------------------------------------------------------------------------------------- */\A 6: .ft_offre_content {\A 7:   .ft_offre_title {\A 8:     text-align: center;\A 9:     color: $orange;\A 10:   }\A 11:   .ft_offre_desc{\A 12:     width: 30%;\A 13:     margin: 0 auto;\A 14:     @media (max-width:768px) {"; }

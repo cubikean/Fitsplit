@@ -301,6 +301,9 @@ p {
   transition: all 0.3s;
   padding: 20px 80px 20px 80px;
   text-transform: uppercase; }
+  @media (max-width: 768px) {
+    .ft_btn {
+      padding: 20px 40px 20px 40px; } }
   .ft_btn:hover {
     transform: scale(1.1);
     transition: all 0.3s;
@@ -741,6 +744,9 @@ p {
 .ft_offre_content .ft_offre_desc {
   width: 30%;
   margin: 0 auto; }
+  @media (max-width: 768px) {
+    .ft_offre_content .ft_offre_desc {
+      width: 80%; } }
   .ft_offre_content .ft_offre_desc p {
     text-align: center; }
 .ft_offre_content .ft_offre_sub_title {
