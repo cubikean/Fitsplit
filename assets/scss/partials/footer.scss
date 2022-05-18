@@ -9,9 +9,22 @@
     align-items: center;
     width: 80%;
     margin: 0 auto;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      width: 90%;
+    }
+
     .ft_footer_tab_single {
       display: inline-grid;
       width: 25%;
+
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+      @media (max-width: 568px) {
+        width: 100%;
+      }
       a {
         text-decoration: none;
         color: white;
@@ -31,10 +44,20 @@
     display: inline-flex;
     width: 100%;
     justify-content: space-evenly;
-    h3 a {
-      color: #ff9f47;
-      text-decoration: none;
-      font-family: "poppins";
+    @media (max-width: 568px) {
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+    h3 {
+    @media (max-width:568px) {
+      width: 50%;
+      text-align: center;
+    }
+      a {
+        color: #ff9f47;
+        text-decoration: none;
+        font-family: "poppins";
+      }
     }
   }
 }

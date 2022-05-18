@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$orange".
-        on line 9 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\partials\register.scss
+        on line 9 of C:\Users\hchatigny\Documents\GitHub\Fitsplit\assets\scss\partials\register.scss
 
 4: 
 5: ---------------------------------------------------------------------------------------------------- *\/
@@ -15,7 +15,7 @@ Error: Undefined variable: "$orange".
 14:       align-items: center;
 
 Backtrace:
-C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\partials\register.scss:9
+C:\Users\hchatigny\Documents\GitHub\Fitsplit\assets\scss\partials\register.scss:9
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange\".\A         on line 9 of C:\Users\hugoc\Documents\GitHub\Fitsplit\assets\scss\partials\register.scss\A \A 4: \A 5: ---------------------------------------------------------------------------------------------------- */\A 6: .ft_register_content {\A 7:   .ft_register_title {\A 8:     text-align: center;\A 9:     color: $orange;\A 10:   }\A 11:   .ft_register_form {\A 12:     form {\A 13:       display: flex;\A 14:       align-items: center;"; }
+  content: "Error: Undefined variable: \"$orange\".\A         on line 9 of C:\Users\hchatigny\Documents\GitHub\Fitsplit\assets\scss\partials\register.scss\A \A 4: \A 5: ---------------------------------------------------------------------------------------------------- */\A 6: .ft_register_content {\A 7:   .ft_register_title {\A 8:     text-align: center;\A 9:     color: $orange;\A 10:   }\A 11:   .ft_register_form {\A 12:     form {\A 13:       display: flex;\A 14:       align-items: center;"; }
