@@ -39,7 +39,7 @@
                         <i class="fa-solid fa-bell"></i>
                     </a>
                 </div>
-                <a href="/register.php" class="ft_nav_connexion">Connexion</a>
+                <a href="/register.php" class="ft_nav_connexion">Inscription</a>
                 <div class="ft_nav_account_img">
                     <a href="#">
                         <i class="fa-solid fa-user"></i>
@@ -58,10 +58,11 @@
             <ul class="menu_toggle">
                 <li><a href="">Les coachs</a></li>
                 <li><a href="">programme d'entrainement</a></li>
-                <li><a href="">Nous rejoindre</a></li>
+                <li><a href="/offre.php">Nous rejoindre</a></li>
                 <li><a href="">Contact</a></li>
                 <li><a href="">Parametres</a></li>
                 <li><a href="">Déconnexion</a></li>
+                <li><a href="/register.php">Inscription</a></li>
                 
             </ul>
         </div>
