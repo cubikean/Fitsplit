@@ -8,10 +8,10 @@ body {
   margin: 0; }
 
 h1 {
-  font-size: 36px;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  text-decoration: dashed; }
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #ff9f47;
+  font-family: "Poppins", sans-serif; }
 
 h2,
 h3,
@@ -301,7 +301,11 @@ p {
 .ft_coach_card {
   width: 400px;
   background-color: #282828;
-  border-radius: 15px; }
+  border-radius: 15px;
+  margin: 0 auto; }
+  @media (max-width: 768px) {
+    .ft_coach_card {
+      width: 300px; } }
   .ft_coach_card .ft_coach_card_img {
     text-align: center;
     height: 120px;

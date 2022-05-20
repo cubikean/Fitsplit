@@ -1,0 +1,144 @@
+/* ----------------------------------------------------------------------------------------------------
+
+                    COACHS PAGE - CUBICOM V.1.0.0
+
+---------------------------------------------------------------------------------------------------- */
+.ft_coach_top {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 150px;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  p{
+    text-align: center;
+  }
+  .ft_coach_top_filter {
+    select {
+      padding: 15px 30px 15px 0px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid $orange;
+      color: $white;
+      & :focus-visible {
+        outline: none;
+      }
+      option {
+        color: $black;
+      }
+    }
+  }
+}
+.ft_coach_content{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  justify-content: center;
+  gap: 20px;
+  row-gap: 150px;
+}
+
+.ft_page_changer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .ft_page_previous {
+    display: flex;
+    margin-left: 0px;
+    a {
+      color: $white;
+      border: solid 2px $orange;
+      display: flex;
+      flex-direction: row-reverse;
+      width: 110px;
+      @media (max-width: 768px) {
+        width: 12px;
+        color: transparent;
+      }
+      svg.ft-arrow-right {
+        top: inherit;
+        left: 12px;
+        transform: rotate(0deg);
+        path {
+          fill: $white;
+          stroke: $white;
+        }
+      }
+      &:hover {
+        color: #fff;
+        border: solid 2px $orange;
+        background-color: $orange;
+        svg.ft-arrow-right {
+          left: 8px;
+          path {
+            fill: #fff;
+            stroke: #fff;
+          }
+        }
+      }
+    }
+  }
+  .ft_page_number {
+    a {
+      margin: 0;
+    }
+    .active {
+      color: white !important;
+      background-color: $orange !important;
+    }
+  }
+  .ft_page_next {
+    display: flex;
+    margin-left: 20px;
+    a {
+      width: 90px;
+      @media (max-width: 768px) {
+        width: 12px;
+        color: transparent;
+        margin-right: 0px;
+      }
+      &:hover{
+        border: solid 2px $orange;
+        background-color: $orange;
+        svg.ft-arrow-right {
+          right: 8px;
+          path {
+            fill: #fff;
+            stroke: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+.ft_btn_black {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: $white;
+  line-height: 1.2;
+  text-decoration: none;
+  background-color: #141414;
+  border-radius: 8px;
+  border: solid 2px $orange;
+  position: relative;
+  padding: 8px 15px 8px 15px !important;
+  font-weight: 500;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  svg.ft-arrow-right {
+    position: absolute;
+    top: 4px;
+    right: 12px;
+    fill: $white;
+    width: 18px;
+    transform: rotate(180deg);
+    transition: all 0.4s ease-in-out;
+}
+}

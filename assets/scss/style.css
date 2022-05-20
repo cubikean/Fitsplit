@@ -14,10 +14,10 @@ body {
   margin: 0; }
 
 h1 {
-  font-size: 36px;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  text-decoration: dashed; }
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #ff9f47;
+  font-family: "Poppins", sans-serif; }
 
 h2,
 h3,
@@ -307,7 +307,11 @@ p {
 .ft_coach_card {
   width: 400px;
   background-color: #282828;
-  border-radius: 15px; }
+  border-radius: 15px;
+  margin: 0 auto; }
+  @media (max-width: 768px) {
+    .ft_coach_card {
+      width: 300px; } }
   .ft_coach_card .ft_coach_card_img {
     text-align: center;
     height: 120px;
@@ -843,6 +847,126 @@ p {
     .ft_offre_content .ft_offre_card_container .ft_offre_card_container_single .ft_btn {
       margin: 50px auto;
       width: fit-content; }
+
+/* ----------------------------------------------------------------------------------------------------
+
+                    COACHS PAGE - CUBICOM V.1.0.0
+
+---------------------------------------------------------------------------------------------------- */
+.ft_coach_top {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 150px; }
+  @media (max-width: 768px) {
+    .ft_coach_top {
+      width: 100%; } }
+  .ft_coach_top p {
+    text-align: center; }
+  .ft_coach_top .ft_coach_top_filter select {
+    padding: 15px 30px 15px 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ff9f47;
+    color: #ffffff; }
+    .ft_coach_top .ft_coach_top_filter select :focus-visible {
+      outline: none; }
+    .ft_coach_top .ft_coach_top_filter select option {
+      color: #141414; }
+
+.ft_coach_content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  justify-content: center;
+  gap: 20px;
+  row-gap: 150px; }
+
+.ft_page_changer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .ft_page_changer .ft_page_previous {
+    display: flex;
+    margin-left: 0px; }
+    .ft_page_changer .ft_page_previous a {
+      color: #ffffff;
+      border: solid 2px #ff9f47;
+      display: flex;
+      flex-direction: row-reverse;
+      width: 110px; }
+      @media (max-width: 768px) {
+        .ft_page_changer .ft_page_previous a {
+          width: 12px;
+          color: transparent; } }
+      .ft_page_changer .ft_page_previous a svg.ft-arrow-right {
+        top: inherit;
+        left: 12px;
+        transform: rotate(0deg); }
+        .ft_page_changer .ft_page_previous a svg.ft-arrow-right path {
+          fill: #ffffff;
+          stroke: #ffffff; }
+      .ft_page_changer .ft_page_previous a:hover {
+        color: #fff;
+        border: solid 2px #ff9f47;
+        background-color: #ff9f47; }
+        .ft_page_changer .ft_page_previous a:hover svg.ft-arrow-right {
+          left: 8px; }
+          .ft_page_changer .ft_page_previous a:hover svg.ft-arrow-right path {
+            fill: #fff;
+            stroke: #fff; }
+  .ft_page_changer .ft_page_number a {
+    margin: 0; }
+  .ft_page_changer .ft_page_number .active {
+    color: white !important;
+    background-color: #ff9f47 !important; }
+  .ft_page_changer .ft_page_next {
+    display: flex;
+    margin-left: 20px; }
+    .ft_page_changer .ft_page_next a {
+      width: 90px; }
+      @media (max-width: 768px) {
+        .ft_page_changer .ft_page_next a {
+          width: 12px;
+          color: transparent;
+          margin-right: 0px; } }
+      .ft_page_changer .ft_page_next a:hover {
+        border: solid 2px #ff9f47;
+        background-color: #ff9f47; }
+        .ft_page_changer .ft_page_next a:hover svg.ft-arrow-right {
+          right: 8px; }
+          .ft_page_changer .ft_page_next a:hover svg.ft-arrow-right path {
+            fill: #fff;
+            stroke: #fff; }
+
+.ft_btn_black {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.2;
+  text-decoration: none;
+  background-color: #141414;
+  border-radius: 8px;
+  border: solid 2px #ff9f47;
+  position: relative;
+  padding: 8px 15px 8px 15px !important;
+  font-weight: 500;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out; }
+  .ft_btn_black svg.ft-arrow-right {
+    position: absolute;
+    top: 4px;
+    right: 12px;
+    fill: #ffffff;
+    width: 18px;
+    transform: rotate(180deg);
+    transition: all 0.4s ease-in-out; }
 
 /* Responsive */
 
