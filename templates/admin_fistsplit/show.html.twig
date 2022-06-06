@@ -1,0 +1,38 @@
+{% extends 'admin.html.twig' %}
+
+{% block title %}Fitsplit{% endblock %}
+
+{% block body %}
+    <h1>Fitsplit</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ fitsplit.id }}</td>
+            </tr>
+            <tr>
+                <th>Slogan</th>
+                <td>{{ fitsplit.slogan }}</td>
+            </tr>
+            <tr>
+                <th>Siret</th>
+                <td>{{ fitsplit.siret }}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{{ fitsplit.description }}</td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td>{{ fitsplit.phone }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_admin_fistsplit_index') }}">back to list</a>
+
+    <a href="{{ path('app_admin_fistsplit_edit', {'id': fitsplit.id}) }}">edit</a>
+
+    {{ include('admin_fistsplit/_delete_form.html.twig') }}
+{% endblock %}

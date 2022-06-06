@@ -10,7 +10,13 @@
 
 <div class="example-wrapper">
     <h1>Hello {{ controller_name }}! ✅</h1>
-
+    {% if fitsplit %}
+        <p>{{ fitsplit[0].slogan }}</p>
+        <p>{{ fitsplit[0].siret }}</p>
+        <p>{{ fitsplit[0].description }}</p>
+        <p>{{ fitsplit[0].phone }}</p>
+    {% endif %}
+    
     <p> This friendly message is coming from:</p>
     <ul>
         <p>Your controller at <code><a href="{{ 'C:/wamp64/www/dev/fitsplit/src/Controller/MainController.php'|file_link(0) }}">src/Controller/MainController.php</a></code></p>
